@@ -1,5 +1,5 @@
 {
-  "name": "tdl-ts",
+  "name": "ts-suimu",
   "version": "1.0.0",
   "description": "test driver learn typescript",
   "main": "index.js",
@@ -11,17 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuixiaorui/tdl-ts.git"
+    "url": "git+https://github.com/shuimu0579/ts-suimu"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cuixiaorui/tdl-ts/issues"
+    "url": "https://github.com/shuimu0579/ts-suimu/issues"
   },
-  "homepage": "https://github.com/cuixiaorui/tdl-ts#readme",
+  "homepage": "https://github.com/shuimu0579/ts-suimu#readme",
   "dependencies": {
     "@type-challenges/utils": "^0.1.1",
+    "husky": "^4.3.8",
     "tsd": "^0.13.1"
   },
   "tsd": {
