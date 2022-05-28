@@ -1,4 +1,4 @@
-type TupleToObject<T extends readonly any[]> = {
+type TupleToObject<T extends readonly (string | number | symbol)[]> = {
   // [P in keyof T] : P; // keyof array -> 得到一个索引组成的数组
   [P in T[number]] : P;
 };
