@@ -24,5 +24,5 @@ type error = TupleToObject<[[1, 2], {}]>;
 // type interface type 世界
 
 // 1. typeof
-// 2. 字面量类型
+// 2. 字面量类型--为常量服务的
 // 3. @ts-expect-error 注释
