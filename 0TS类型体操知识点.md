@@ -63,3 +63,10 @@
 ```text
 // 1.T extends U ,当T和U都是union类型的时候，extends的具体行为是什么？
 ```
+
+## [189-easy-awaited](https://www.bilibili.com/video/BV1uB4y1m7Hv/?spm_id_from=333.788.recommend_more_video.1)
+
+```text
+// 1. infer只能在 条件类型里面使用
+// 2. infer用于设置未知数  变量
+```
