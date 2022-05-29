@@ -2,6 +2,10 @@
 
 - [type-challenges 仓库](https://github.com/type-challenges/type-challenges/blob/main/questions/00004-easy-pick/README.md)
 
+## TODO
+
+- [TS里面 extends关键字的理解](https://juejin.cn/post/6998736350841143326)
+
 ## [04-easy-pick](https://www.bilibili.com/video/BV1vY41187Tx?spm_id_from=333.999.0.0)
 
 ```text
@@ -69,4 +73,14 @@
 ```text
 // 1. infer只能在 条件类型里面使用
 // 2. infer用于设置未知数  变量
+```
+
+## [00268-easy-if](https://www.bilibili.com/video/BV13Y4y1k76v/?spm_id_from=pageDriver)
+
+```text
+// 知识点
+// 类型兼容性 | 分配规则
+// null 严格模式和非严格模式的区别
+// 1. https://www.typescriptlang.org/docs/handbook/type-compatibility.html
+// 2. tsconfig.json里面"strict": false -> "strict": true,
 ```
