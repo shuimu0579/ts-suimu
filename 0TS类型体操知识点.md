@@ -57,3 +57,9 @@
 // 什么是 tuple 类型 (https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types)
 // TS中的tuple和普通的数组有什么区别 -- tuple是确定类型确定长度的数组，普通的数组是没有确定长度的。
 ```
+
+## [43-easy-exclude](https://www.bilibili.com/video/BV1c34y147gP?spm_id_from=333.999.0.0)
+
+```text
+// 1.T extends U ,当T和U都是union类型的时候，extends的具体行为是什么？
+```

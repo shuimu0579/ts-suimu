@@ -1,19 +1,5 @@
 type MyExclude<T, U> = T extends U ? never : T;
 
-interface IResponse {
-  index: number;
-  num: number;
-  title: string;
-  list: {
-    name: string;
-    age: number;
-  }[];
-}
-
-type extractKey<T, K extends keyof T> = T[K] extends (infer A)[] ? A : T[K];
-type t1 = extractKey<IResponse, "list">;
-type t2 = extractKey<IResponse, "index">;
-
 // js
 function MyExclude(T, U: any[]) {
   const result = [];
@@ -39,3 +25,6 @@ function MyExclude(T, U: any[]) {
 
   return result;
 }
+
+
+// 1.T extends U ,当T和U都是union类型的时候，extends的具体行为是什么？
