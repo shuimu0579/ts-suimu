@@ -1,6 +1,8 @@
 # TS类型体操中涉及的知识点
 
-## 04-easy-pick
+- [type-challenges 仓库](https://github.com/type-challenges/type-challenges/blob/main/questions/00004-easy-pick/README.md)
+
+## [04-easy-pick](https://www.bilibili.com/video/BV1vY41187Tx?spm_id_from=333.999.0.0)
 
 ```text
 // 涉及到的知识点
@@ -16,7 +18,7 @@
 // - https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html
 ```
 
-## 7-easy-readonly
+## [7-easy-readonly](https://www.bilibili.com/video/BV1a34y1B7E7/?spm_id_from=pageDriver)
 
 ```text
 // 1. 返回一个对象
@@ -25,7 +27,7 @@
 // 4. 通过 key 来获取 obj(接口) 里面的值 indexed
 ```
 
-## 11-easy-tuple-to object
+## [11-easy-tuple-to object](https://www.bilibili.com/video/BV1KP4y177sx/?spm_id_from=pageDriver)
 
 ```text
 // 前置知识点1：typeof( https://www.typescriptlang.org/docs/handbook/2/typeof-types.html#handbook-content )的作用：将非类型世界(let/const等js) 转换为 类型世界(type/interface等ts)
@@ -38,8 +40,20 @@
 // T[number] ->去遍历一个数组
 ```
 
-## 14-easy-first
+## [14-easy-first](https://www.bilibili.com/video/BV1h34y1i7i5/?spm_id_from=pageDriver)
 
 ```text
+// 知识点
+// 1. extends 类型条件判断
+// 2. 获取 tuple 的 length 属性  indexed
+// 3. extends union  判断的规则
+// 4. inter 的使用(推断)
+```
 
+## [18-easy-tuple-length](https://www.bilibili.com/video/BV11u41117Lg/?spm_id_from=pageDriver)
+
+```text
+// 知识点
+// 什么是 tuple 类型 (https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types)
+// TS中的tuple和普通的数组有什么区别 -- tuple是确定类型确定长度的数组，普通的数组是没有确定长度的。
 ```
